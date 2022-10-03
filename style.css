@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+    background-color: #FFE8D1;
+    font-family: Georgia, Times New Roman, 'Garamond',Times, serif;
+}
+
+
+.menu-container{
+    color: #826251;
+    background-color: #568EA3;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    border: 3px solid #ffffff;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home{
+    margin-left: auto;
+}
+.projects{
+    margin-left: 30px;
+}
+.about-me{
+    margin-left: 40px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    color: #826251;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.animate_animated.animate_hinge{
+    animation-duration: 3s;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #826251;
+    text-align: justify; 
+}
+
+.photo-grid-container{
+    display:flex;
+    justify-content: right;
+}
+.photo-grid{
+    width: 500px;
+    height: 300px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.fa{
+    color: #68C3D4
+}
